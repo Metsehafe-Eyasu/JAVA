@@ -1,5 +1,5 @@
-package drivers;
-import classes.*;
+package Project.Drivers;
+import Project.Classes.*;
 
 public class MenuItemDriver {
     public static void main(String[] args) {

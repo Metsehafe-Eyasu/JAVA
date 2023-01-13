@@ -1,4 +1,4 @@
-package classes;
+package Project.Classes;
 public class MenuItem {
     private String name;
     private double price;

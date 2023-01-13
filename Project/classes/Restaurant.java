@@ -1,4 +1,4 @@
-package classes;
+package Project.Classes;
 import java.util.ArrayList;
 
 public class Restaurant {

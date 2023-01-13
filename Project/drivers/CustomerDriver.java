@@ -1,5 +1,5 @@
-package drivers;
-import classes.Customer;
+package Project.Drivers;
+import Project.Classes.Customer;
 
 public class CustomerDriver {
     public static void main(String[] args) {
