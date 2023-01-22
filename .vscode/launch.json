@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch FoodOrderingApp",
+            "request": "launch",
+            "mainClass": "Updated_Project.Classes.FoodOrderingApp",
+            "projectName": "JAVA_402ce205"
+        },
+        {
+            "type": "java",
+            "name": "Launch RestaurantDriver",
+            "request": "launch",
+            "mainClass": "Updated_Project.Drivers.RestaurantDriver",
+            "projectName": "JAVA_402ce205"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrderDriver",
+            "request": "launch",
+            "mainClass": "Updated_Project.Drivers.OrderDriver",
+            "projectName": "JAVA_402ce205"
+        },
+        {
+            "type": "java",
+            "name": "Launch MenuItemDriver",
+            "request": "launch",
+            "mainClass": "Updated_Project.Drivers.MenuItemDriver",
+            "projectName": "JAVA_402ce205"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomerDriver",
+            "request": "launch",
+            "mainClass": "Updated_Project.Drivers.CustomerDriver",
+            "projectName": "JAVA_402ce205"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

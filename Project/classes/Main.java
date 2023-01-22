@@ -5,6 +5,19 @@ import java.util.Scanner;
 public class Main {
     private static ArrayList<Restaurant> restaurants = new ArrayList<>();
     
+    public static void addRestaurant(Restaurant restaurant) {
+        restaurants.add(restaurant);
+    }
+
+    public static ArrayList<Restaurant> searchRestaurants(String searchTerm) {
+        ArrayList<Restaurant> searchResults = new ArrayList<>();
+        for (Restaurant restaurant : restaurants) {
+            if (restaurant.getName().contains(searchTerm)) {
+                searchResults.add(restaurant);
+            }
+        }
+        return searchResults;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // Create some sample customers
@@ -49,17 +62,4 @@ public class Main {
         }
     }
 
-    public static void addRestaurant(Restaurant restaurant) {
-        restaurants.add(restaurant);
-    }
-
-    public static ArrayList<Restaurant> searchRestaurants(String searchTerm) {
-        ArrayList<Restaurant> searchResults = new ArrayList<>();
-        for (Restaurant restaurant : restaurants) {
-            if (restaurant.getName().contains(searchTerm)) {
-                searchResults.add(restaurant);
-            }
-        }
-        return searchResults;
-    }
 }
